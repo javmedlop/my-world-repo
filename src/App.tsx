@@ -6,7 +6,7 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.h1<{ $primary?: boolean }>`
-  color: ${(props) => (props.$primary ? 'blue' : 'red')};
+  color: ${(props) => (props.$primary ? 'pink' : 'orange')};
   font-size: 1.5em;
 `;
 
